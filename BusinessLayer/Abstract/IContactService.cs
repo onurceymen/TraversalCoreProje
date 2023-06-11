@@ -1,13 +1,13 @@
-﻿using EntityLayer.Concrete; 
+﻿using EntityLayer.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataAccessLayer.Abstract
+namespace BusinessLayer.Abstract
 {
-	public interface IFeature2Dal : IGenericDal<IFeature2Dal>
+	public interface IContactService : IGenericService<Contact>
 	{
 	}
 }
